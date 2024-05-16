@@ -1,0 +1,46 @@
+body {
+    background: lightslategray;
+}
+header,footer{
+    background-color: rgb(81, 129, 81);
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerkuva{
+    align-content: center;
+    width: 50%;
+    height: auto;
+}
+nav{
+    background-color: bisque;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: none;
+    width: 50%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
